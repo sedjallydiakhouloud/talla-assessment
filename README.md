@@ -42,7 +42,7 @@ Description.
 
 Allows users to add new images with:
 
-Maximum file size: 6MB (validated as max:2048).
+Maximum file size: 6MB AS MAX .
 Required fields: Title and optional Description.
 Uploaded files stored in public/uploads.
 
