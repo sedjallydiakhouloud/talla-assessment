@@ -76,8 +76,7 @@ Storage: Configured public disk for uploaded images.
 Installation
 
 Clone the Repository:
-bashgit clone https://github.com/your-username/filament-image-gallery.git
-cd filament-image-gallery
+
 
 Install Dependencies:
 bashcomposer install
