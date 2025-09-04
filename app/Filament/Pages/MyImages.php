@@ -62,7 +62,7 @@ class MyImages extends Page
         $this->validate([
             'imageTitle' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'file' => 'required|image|max:6144', // Updated to 6 MB (6144 KB)
+            'file' => 'required|image|max:6144', //  6 MB (6144 KB)
         ]);
 
         $path = $this->file->store('uploads', 'public');
