@@ -160,7 +160,7 @@ database/migrations/: Assumed migrations for user_images and favorites tables.
 Additional Notes
 
 API Usage: Respects Art Institute API best practices (field limiting, pagination). No authentication required.
-Security: Validates uploads (max 2MB), restricts actions to authenticated users. Foreign keys are managed with logs for SQLite issues.
+Security: Validates uploads (max 6MB), restricts actions to authenticated users. Foreign keys are managed with logs for SQLite issues.
 Debugging: Extensive logging in controllers (check storage/logs/laravel.log) for image URLs, favorites, and errors. Debug info in views for IDs/URLs.
 Limitations: Search in My Images/Favorites is local (no API). Favorites may show placeholders if images fail to load. No initial seed data.
 Customization: Adjust image sizes in CSS (e.g., height: 256px in gallery-item img). Update validation in controllers as needed.
