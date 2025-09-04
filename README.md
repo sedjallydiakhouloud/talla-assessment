@@ -61,6 +61,7 @@ Title (fetched dynamically for API images).
 Allows users to unfavorite images with a remove button ("X") and animation.
 Supports search and pagination (12 items per page by default).
 Handles both API and user images uniformly, with detailed logging for debugging.
+Includes a Filament resource for admin management.
 
 Prerequisites
 
